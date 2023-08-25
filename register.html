@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClockInFlow - Register</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/svg" href="images/clock-hour-7.svg">
+</head>
+
+<body>
+    <main>
+        <div class="form-container">
+            <img src="images/logo.png" alt="company logo">
+            <form action="/register" method="POST">
+                <label for="fullName">Name</label>
+                <input type="text" name="fullName" id="fullName" autocomplete="name" required>
+                <label for="email">E-Mail</label>
+                <input type="text" name="email" id="email" autocomplete="email" required>
+                <label for="password">Passwort</label>
+                <input type="password" name="password" id="password" required>
+                <p>Bereits Mitglied? <a href="/login">Log In</a></p>
+                <button id="btnRegister" type="submit">Register</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
