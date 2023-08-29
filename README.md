@@ -3,6 +3,5 @@ User-Registrierung als erster Teil eines Zeiterfassungsprojekts.
 
 Umsetzung in HTML, CSS, JavaScript und NodeJS.
 
-![createAccount2](https://github.com/mikajed/regform/assets/84669111/552f2c75-a06e-47f5-99af-f4ed9a2cb34b)
-![logIn2](https://github.com/mikajed/regform/assets/84669111/7265a497-8256-4658-a505-db30dfe7a352)
-
+![logIn2](https://github.com/mikajed/regform/assets/84669111/da8aef92-05eb-4213-a11d-c82542858f64)
+![createAccount2](https://github.com/mikajed/regform/assets/84669111/974d3325-2707-410e-83f1-bc4ed28ba247)
