@@ -1,7 +1,13 @@
+const bcrypt = require('bcrypt');
 const express = require('express');
 const parseUrl = require('body-parser');
 const mysql = require('mysql');
 const app = express();
+
+bcrypt.genSalt(10, (err, salt) => {
+    bcrypt.hash(plaintextPassword, salt, function(err, hash) {
+    });
+});
 
 const encodeUrl = parseUrl.urlencoded({ extended: false });
 
