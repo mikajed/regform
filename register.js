@@ -3,6 +3,8 @@ const parseUrl = require('body-parser');
 const mysql = require('mysql');
 const app = express();
 
+// don't forget hashed passwords!!!!
+
 const encodeUrl = parseUrl.urlencoded({ extended: false });
 
 const con = mysql.createConnection({
