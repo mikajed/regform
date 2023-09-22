@@ -94,5 +94,5 @@ async function createUser(connection, fullName, email, password) {
 
 const port = 4000;
 app.listen(port, () => {
-    console.log(`Server läuft auf ${port}`);
+    console.log(`Server läuft auf Port: ${port}`);
 });
